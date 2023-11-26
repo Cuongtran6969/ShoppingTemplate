@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="myheader">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="./images/logo.webp" class="img-fluid" alt="logo">
+                </div>
+                <div class="col-md-4">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Từ khóa tìm kiếm...." aria-label="Từ khóa tìm kiếm...." aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="row">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="fs-3 text-danger">
+                                        <i class="fa-solid fa-phone"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    Tư vấn hỗ trợ <br>
+                                    <strong class="text-danger">19006750</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="fs-3 text-danger">
+                                        <i class="fa-solid fa-user"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    Xin chào!<br>
+                                    <strong class="text-danger">Đăng nhập</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="#" class="position-relative">
+                                <span class="fs-3 text-black">
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                  0
+                                  <span class="visually-hidden">unread messages</span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#" class="position-relative">
+                                <span class="fs-3 text-black">
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                </span>
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                  0
+                                  <span class="visually-hidden">unread messages</span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#" class="position-relative">
+                                <span class="fs-3 text-black">
+                                    <i class="fa-solid fa-bars"></i>
+                                </span>
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                  0
+                                  <span class="visually-hidden">unread messages</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mymainmaenu bg-danger">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-white">
+                    Danh mục sản phẩm
+                </div>
+                <div class="col-md-9">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <a class="navbar-brand d-none" href="#">Navbar</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white active" aria-current="page" href="#">Trang chủ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Giới thiệu</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Sản phẩm
+                            </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Features</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Câu hỏi thường gặp</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Tuyển dụng</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mymaincontent py-3">
+        <div class="container">
+            <div class="row g-2">
+                <div class="col-md-8">
+                    <!-- slider -->
+                    <div class="slider">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#" class="swiper-slide_link"><img src="./images/slider1.jpeg" alt=""></a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="swiper-slide_link"><img src="./images/slider2.jpeg" alt=""></a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="swiper-slide_link"><img src="./images/slider3.jpeg" alt=""></a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="swiper-slide_link"><img src="./images/slider4.png" alt=""></a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="swiper-slide_link"><img src="./images/slider5.jpeg" alt=""></a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="swiper-slide_link"><img src="./images/slider6.jpeg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next slide-btn"></div>
+                            <div class="swiper-button-prev slide-btn"></div>
+                            <div class="swiper-pagination slide-btn"></div>
+                        </div>
+                    </div>
+                    <!-- slider -->
+                </div>
+                <div class="col-md-4">
+                    <div class="row h-100 g-1">
+                        <div class="col-md-12">
+                            <div class="banner-item">
+                                <a href="#" class="banner-item_link">
+                                    <img src="./images/banner1.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="banner-item">
+                                <a href="#" class="banner-item_link">
+                                    <img src="./images/banner2.jpeg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="myfooter bg-dark text-white pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h6>VĂN PHÒNG GIAO DỊCH</h6>
+                    <ul class="list-inline ">
+                        <li class="footer_link"><a class="text-decoration-none" href="">Trang chủ</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Giới thiệu</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Sản phẩm</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Tin mới nhất</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Câu hỏi thường gặp</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Tuyển dụng</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6>VỀ CHÚNG TÔI</h6>
+                    <ul class="list-inline ">
+                        <li class="footer_link"><a class="text-decoration-none" href="">Trang chủ</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Giới thiệu</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Sản phẩm</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Tin mới nhất</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Câu hỏi thường gặp</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Tuyển dụng</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6>CHÍNH SÁCH BÁN HÀNG</h6>
+                    <ul class="list-inline ">
+                        <li class="footer_link"><a class="text-decoration-none" href="">Trang chủ</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Giới thiệu</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Sản phẩm</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Tin mới nhất</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Câu hỏi thường gặp</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Tuyển dụng</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6>THEO DÕI CHÚNG TÔI</h6>
+                    <ul class="list-inline ">
+                        <li class="footer_link"><a class="text-decoration-none" href="">Trang chủ</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Giới thiệu</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Sản phẩm</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Tin mới nhất</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Câu hỏi thường gặp</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Tuyển dụng</a></li>
+                        <li class="footer_link"><a class="text-decoration-none" href="">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>THIÊN ĐƯỜNG MUA SẮM POCO MART</h4>
+                    <p>
+                        Copyright@ 2021 Công ty cổ phần thương mại Poco Mart Chứng nhận ĐKKD số: 0388282938 do sở KH & ĐT TP.Hà Nội cấp Địa chỉ: Tòa nhà Ladeco 266 Đội Cấn, Ba Đình, Hà Nội Điện thoại:
+                        <a href="tel:19006750">19006750</a> - Email: <a href="support@sapo.vn">support@sapo.vn</a>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h3>NHẬN TIN KHUYẾN MÃI</h3>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control rounded-0" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary rounded-0 bg-danger text-white" type="button" id="button-addon2">Đăng ký</button>
+                    </div>
+                    <div class="list- d-flex">
+                        <div class="social-item box50">
+                            <a href=""><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a>
+                        </div>
+                        <div class="social-item box50">
+                            <a href=""><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>
+                        </div>
+                        <div class="social-item box50">
+                            <a href=""><i class="fa-brands fa-google" style="color: #ffffff;"></i></a>
+                        </div>
+                        <div class="social-item box50">
+                            <a href=""><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        Bản quyền thuộc về Ego Creative Cung cấp bởi Sapo
+                    </div>
+                    <ul class="footer_links">
+                        <li class="footer_link"><a href="/">Trang chủ</a></li>
+
+                        <li class="footer_link"><a href="/gioi-thieu">Giới thiệu</a></li>
+
+                        <li class="footer_link"><a href="/collections/all">Sản phẩm</a></li>
+
+                        <li class="footer_link"><a href="/tin-moi-nhat">Tin mới nhất</a></li>
+
+                        <li class="footer_link"><a href="/cau-hoi-thuong-gap">Câu hỏi thường gặp</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            loop: true,
+            speed: 1500,
+
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
